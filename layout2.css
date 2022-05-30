@@ -1,0 +1,37 @@
+body > * {
+    margin: 5px;
+    padding: 10px;
+}
+
+.container > aside, .container > main {
+    float: right;
+}
+
+.container > aside {
+    width: 150px;
+}
+
+.container > main {
+    width: 1253px;
+    margin-left: 5px;
+    padding: 10px;
+}
+
+.container {
+    display: flex;
+    padding: 0;
+}
+body > header {
+    background-image: https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbn8OW2UsncH0jDvlAIIO-WLFQCliC-igJvw&usqp=CAU;
+    background-repeat: no-repeat;
+    background-color: #CA82FF;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-origin: content-box;
+    font-size: 1.5em;
+}
+
+nav {
+    margin-right: 800px;
